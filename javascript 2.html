@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Variable Declaration</title>
+    </head>
+    <body>
+        <script>
+            myName='Simi';
+            myAge=19;
+            isMarried=false;
+            num=undefined;
+            num2=null
+            person={
+                name:'sam',
+                age:45,
+                gender:'male'
+            }
+            document.write("Hi, This today's session")
+            document.write("<br/>Name ="+myName)
+            document.write('<br/>Age= '+myAge)
+            document.write(`<br/>Name = ${myName} <br/> Age= ${myAge} <br/> isMarried= ${isMarried} <br/> num=${num} <br/> num2= ${num2} <br/> person= ${person.name} - ${person.age} -${person.gender}`)
+
+            document.write(`<hr> <br> myName=${typeof(myName)}`)
+            document.write(`<br> myAge=${typeof(myAge)}`)
+            document.write(`<br> num=${typeof(num)}`)
+            document.write(`<br> num2=${typeof(num2)}`) 
+            document.write(`<br> person=${typeof(person)}`)
+            document.write(`<br> isMarried=${typeof(isMarried)}`)
+        </script>
+    </body>
+</html>

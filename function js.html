@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Function Declaration
+        </title>
+    </head>
+
+    <body>
+        <script> 
+
+            /* type - 1 (many ways of declaring function)
+            function greetMe(){
+                console.log("Hello! Welcome");
+            }
+            greetMe(); 
+
+            //Anonymous Function
+            let greet = function(){
+                console.log("Welcome Back");
+            }
+            greet();
+            
+           
+            //Anonymous Function with parameter
+            let greet = function(name){
+                name ? console.log(Hello ${name}! Welcome Back) : 
+                console.log("Hello! Welcome Back");
+            }
+            greet();
+            greet("Simi");
+            
+
+            //IIFE - Immediately Invoked Function Expression
+            (function sayHello(){
+                console.log('IIFE')
+            }) ();
+            
+
+            //Arrow Function
+            let show = ()=>{ console.log('Arrow Function Without parameter') }
+            show();
+            
+*/
+            //Arrow function with parameter
+            let show = (x,y) => {
+                console.log('Arrow function with parameter');
+                return x+y;
+            }
+            console.log(show(10,20));
+       /*     
+
+            //Multiple ternary
+            let age=prompt('Enter the Age',18)
+            let example =()=>{
+                (age<3)?console.log('Hello Baby!'):(age<18)?console.log('Hello')
+                :(age<100)?console.log('Hello Greetings'):console.log('looks like unusual age')
+            }
+            example();
+*/
+        </script>
+    </body>
+</html>

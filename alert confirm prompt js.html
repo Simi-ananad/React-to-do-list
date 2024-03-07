@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alert Confirm Prompt</title>
+    </head>
+    <body>
+        <script>
+            alert('page loaded')
+                var result=confirm('Are you want to save the changes')
+                console.log(result)
+                if(result){
+                    alert('You clicked OK button')
+                }
+                else{
+                    alert('You clicked on Cancel button')
+                }
+                let num1=parseInt(prompt('Enter the Number'));
+                let num2=parseInt(prompt('Enter the Number'));
+                let res=num1*num2;
+                    console.log(res)
+                    document.write('<h2>Addition of given value '+(num1+num2)+"</h2>")
+                //console.log(typeof(num))            
+        </script>
+        <button id="mybtn" onclick="alert()">Alert Me</button>
+    </body>
+</html>

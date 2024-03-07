@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<title>Example</title>
+<style>
+    div{
+        width: 80px;
+        height: 100px;
+        position: relative;
+    }
+    .infront{
+        background-color: red;
+        top: 10px;
+        left: 80px;
+        z-index: 1;
+        opacity: 0.3;
+    }
+    .behind{
+        background-color:gold ;
+        top: -60px;
+        left: 35px;
+        z-index: 2;
+    }
+    .mid{
+        background-color: green;
+        top: -180px;
+        left: 65px;
+        z-index: 2;
+        opacity: 0.4;
+    }
+</style>
+
+<div class="infront"></div>
+<div class="behind"></div>
+<div class="mid"></div>
